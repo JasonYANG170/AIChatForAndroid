@@ -19,7 +19,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="1dp" android:layout_marginEnd="1dp" app:layout_constraintHorizontal_bias="0.0"/>
     <TextView
-            android:text="V2.1"
+            android:text="V3.0"
             android:layout_width="0dp"
             android:layout_height="wrap_content" android:id="@+id/textView"
             android:textStyle="bold"
