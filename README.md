@@ -1,8 +1,14 @@
 # YANG-Chat-Android
 **YANG Chat安卓版本正式发布**
-安卓版本由JAVA语言构造
+
+安卓版本由JAVA语言构造。
 
 本项目于2023年5月8日启动并发布第一个测试版本。
+
+**YANG Chat-PC程序已发布，欢迎下载测试**
+
+https://github.com/JasonYANG170/YANG-Chat
+
 # 适配机型
 支持Android7.0-Android13.0设备。
 
