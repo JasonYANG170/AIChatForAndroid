@@ -13,8 +13,8 @@
             android:theme="@style/Theme.MyApplication"
             tools:targetApi="31">
         <activity android:name="com.YANG.Chat.SecondActivity"
-                  android:label="YANG Chat by Android V2.1"
-
+                  android:label="YANG Chat by Android V3.0"
+                  android:windowSoftInputMode="adjustResize"
                   android:exported="true">
             <intent-filter>
                 <action android:name="A"/>

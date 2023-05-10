@@ -1,6 +1,11 @@
 package com.YANG.Chat;
 
+import android.content.ComponentName;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.View;
+import android.webkit.WebView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,7 +31,12 @@ public class SecondActivity extends AppCompatActivity {
         }
         return false;
     }
-
+    public static boolean isNumeri2(String str){
+       if(str.equals("")){
+                return true;
+        }
+        return false;
+    }
      //   private long mPressedTime = 0; // 用于记录返回键按下时间
 
         @Override
@@ -57,11 +67,16 @@ public class SecondActivity extends AppCompatActivity {
                         try {
                             JSONObject jsonObject = new JSONObject(asd);
                             String ves = jsonObject.getString("text");
-                            if(ves.equals("V2.1")) {
-
+                            if(ves.equals("V3.0")) {
+                                bt = findViewById(R.id.button);
+                                bt.setTextSize(15);
+                                bt.setText("暂无更新");
                             }else{
                                // tv1 = findViewById(R.id.textView3);
                                // tv1.setTextSize(20);
+                                bt = findViewById(R.id.button);
+                                bt.setTextSize(15);
+                                bt.setText("发现新版本");
                                 know="发现新版本\""+ves+"\"请更新。\n\n";
                               //  Toast.makeText(SecondActivity.this, know, Toast.LENGTH_LONG).show();
                             }
@@ -124,10 +139,12 @@ public class SecondActivity extends AppCompatActivity {
             tv1.setText("正在等待服务器验证您的密钥......");
             RequestQueue queue2 = Volley.newRequestQueue(this);
             String pass2 = tv2.getText().toString();
-            if(isNumeric(pass2)){
+            if(isNumeric(pass2)||isNumeri2(pass2)){
                 tv1 = findViewById(R.id.textView3);
                 tv1.setTextSize(20);
                 tv1.setText("请先输入密钥完成身份验证");
+               et = findViewById(R.id.editTextTextPersonName);
+                et.setText("");
             }else {
 
 
@@ -148,6 +165,8 @@ public class SecondActivity extends AppCompatActivity {
                                         tv1 = findViewById(R.id.textView3);
                                         tv1.setTextSize(20);
                                         tv1.setText("验证成功，您已成功登录。");
+                                        et = findViewById(R.id.editTextTextPersonName);
+                                        et.setText("");
                                     } else {
                                         tv1 = findViewById(R.id.textView3);
                                         tv1.setTextSize(20);
@@ -192,6 +211,8 @@ public class SecondActivity extends AppCompatActivity {
                                 tv1 = findViewById(R.id.textView3);
                                 tv1.setTextSize(20);
                                 tv1.setText(name);
+                                et = findViewById(R.id.editTextTextPersonName);
+                                et.setText("");
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
@@ -211,6 +232,15 @@ public class SecondActivity extends AppCompatActivity {
 
             queue.add(request);
         }
+    }
+    private EditText et;
+    private Button bt;
+    public void myOnclick2(View view) {
+
+        Uri uri = Uri.parse("https://www.baidu.com");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+
     }
 
 

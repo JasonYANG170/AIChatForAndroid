@@ -18,13 +18,29 @@
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent">
-        <TextView
-                android:text="YANG Chat "
+        <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="51dp" android:id="@+id/textView4"
-                android:textColor="@android:color/holo_orange_light" android:textStyle="bold"
-                android:textAlignment="center" android:textSize="24sp"
-        />
+                android:layout_height="51dp">
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1"/>
+            <TextView
+                    android:text="YANG Chat "
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent" android:id="@+id/textView4"
+                    android:textColor="@android:color/holo_orange_light" android:textStyle="bold"
+                    android:textAlignment="center" android:textSize="24sp"
+            />
+            <Button
+                    android:text="Button"
+                    android:layout_width="113dp"
+                    android:layout_height="38dp" android:id="@+id/button"
+                    android:onClick="myOnclick2"
+                    android:background="@drawable/shape"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
         <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="543dp">
@@ -59,17 +75,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="81dp">
             <FrameLayout
-                    android:layout_width="268dp"
+                    android:layout_width="262dp"
                     android:layout_height="match_parent">
 
                 <View
                         android:layout_width="match_parent"
-                        android:layout_height="77dp" android:id="@+id/view2"
+                        android:layout_height="match_parent" android:id="@+id/view2"
                         android:background="@drawable/shape2"
                 />
                 <EditText
                         android:layout_width="match_parent"
-                        android:layout_height="56dp"
+                        android:layout_height="64dp"
                         android:inputType="textPersonName"
                         android:text=""
                         android:ems="10"
