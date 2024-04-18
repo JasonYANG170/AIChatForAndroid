@@ -1,8 +1,8 @@
 <div align="center">
     <h1>AIChatForAndroid</h1>
-    <img src="https://img.shields.io/github/license/JasonYANG170/AutoDarkMode?label=License&style=for-the-badge">
-    <img src="https://img.shields.io/github/commit-activity/w/JasonYANG170/AutoDarkMode?style=for-the-badge">
-<img src="https://img.shields.io/github/languages/count/JasonYANG170/AutoDarkMode?logo=cplusplus&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/JasonYANG170/AIChatForAndroid?label=License&style=for-the-badge">
+    <img src="https://img.shields.io/github/commit-activity/w/JasonYANG170/AIChatForAndroid?style=for-the-badge">
+<img src="https://img.shields.io/github/languages/count/JasonYANG170/AIChatForAndroid?logo=cplusplus&style=for-the-badge">
 	<br>
     	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
   <br>
