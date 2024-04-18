@@ -1,14 +1,25 @@
-# YANG-Chat-Android
-**YANG Chat安卓版本正式发布**
+<div align="center">
+    <h1>AIChatForAndroid</h1>
+    <img src="https://img.shields.io/github/license/JasonYANG170/AutoDarkMode?label=License&style=for-the-badge">
+    <img src="https://img.shields.io/github/commit-activity/w/JasonYANG170/AutoDarkMode?style=for-the-badge">
+<img src="https://img.shields.io/github/languages/count/JasonYANG170/AutoDarkMode?logo=cplusplus&style=for-the-badge">
+	<br>
+    	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
+  <br>
 
-安卓版本由JAVA语言构造。
+这是一项基于JAVA的Android应用程序
+  
+<br>
 
-**需要自行更新密钥**
+</div>
 
+## 🚧本项目已停止维护
+## 功能
+- ✅ ChatGPT3.1
+- ✅ 间断对话
+- ✅ 连续对话
+- ✅ 云服务请求
 
-**YANG Chat-PC程序已发布，欢迎下载测试**
-
-https://github.com/JasonYANG170/YANG-Chat
 
 # 适配机型
 支持Android7.0-Android13.0设备。
