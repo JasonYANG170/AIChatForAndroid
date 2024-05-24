@@ -6,7 +6,8 @@
 	<br>
     	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
   <br>
-
+	<img src="https://github.com/JasonYANG170/YANG-Chat-Android/assets/39414350/eea02f81-bdc7-4789-8c8c-361bd81ac2e7">
+<br>
 这是一项基于JAVA的Android应用程序
   
 <br>
